@@ -266,6 +266,17 @@ const pages = [
         },
         template: './src/DemoPages/charts/chartjs.hbs'
     },
+
+    //CustomPages
+    {
+        output:'./ctu-room.html',
+        content: {
+            title: 'Danh sách phòng',
+            description: 'Thông tin danh sách phòng',
+            heading_icon: 'pe-7s-drawer icon-gradient bg-happy-itmeo'
+        },
+        template: './src/DemoPages/tables/custom_table.hbs'
+    },
 ];
 
 module.exports = pages;
